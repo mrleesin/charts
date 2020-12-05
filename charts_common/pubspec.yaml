@@ -1,5 +1,5 @@
 name: charts_common
-version: 0.9.0
+version: 0.9.1
 description: A common library for charting packages.
 author: Charts Team <charts_flutter@google.com>
 homepage: https://github.com/google/charts
@@ -8,12 +8,12 @@ environment:
   sdk: '>=2.3.0 <3.0.0'
 
 dependencies:
-  collection: ^1.14.5
-  intl: '>=0.15.2 < 0.17.0'
+  collection: ^1.14.13
+  intl: ^0.16.1
   logging: any
-  meta: ^1.1.1
+  meta: ^1.2.4
   vector_math: ^2.0.8
 
 dev_dependencies:
-  mockito: ^4.0.0
-  test: ^1.5.3
+  mockito: ^4.1.3
+  test: ^1.15.7
